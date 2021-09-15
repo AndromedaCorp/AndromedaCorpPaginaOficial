@@ -10,6 +10,9 @@ const routes: Routes = [
   },
   {
     path:'Index', component:IndexComponent
+  },
+  {
+    path:'', component:IndexComponent
   }
 ];
 
