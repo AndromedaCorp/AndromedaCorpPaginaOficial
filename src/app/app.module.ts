@@ -8,6 +8,8 @@ import { IndexComponent } from './index/index.component';
 import { CreateLibrosComponent } from './libros/create-libros/create-libros.component';
 import { IndexLibrosComponent } from './libros/index-libros/index-libros.component';
 import { DeleteLibrosComponent } from './libros/delete-libros/delete-libros.component';
+import { EditLibrosComponent } from './libros/edit-libros/edit-libros.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { DeleteLibrosComponent } from './libros/delete-libros/delete-libros.comp
     IndexComponent,
     CreateLibrosComponent,
     IndexLibrosComponent,
-    DeleteLibrosComponent
+    DeleteLibrosComponent,
+    EditLibrosComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
